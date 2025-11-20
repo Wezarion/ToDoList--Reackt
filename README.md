@@ -6,7 +6,7 @@ A simple system for creating task lists with the option to mark completed tasks 
 - Code creation was based on BEM conventions.
 
 ## Demo
-https://wezarion.github.io/quest_center/
+(https://wezarion.github.io/ToDoList-React/)
 
 ## Getting Started with Create React App
 

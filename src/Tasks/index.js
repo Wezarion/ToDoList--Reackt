@@ -6,13 +6,13 @@ const Tasks = (props) => (
             <li
             key={task.id}
             className={`tasks__item${task.done && props.hideDoneTasks ? " tasks__item--hiden" : ""}`}>
-               <button className=" button tasks__content button__done">
+               <button className=" buttons tasks__content buttons__done">
                     {task.done ? "✔" : ""}
                 </button>
                 <span className={`tasks__content ${ task.done ? " tasks__content--done" : ""}`}>
                     {task.content}
                 </span>
-                <button className=" button tasks__content button__remove">🗑</button>
+                <button className=" buttons tasks__content buttons__remove">🗑</button>
             </li>
         ))}
     </ul>

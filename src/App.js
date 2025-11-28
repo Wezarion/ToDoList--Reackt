@@ -49,7 +49,7 @@ function App() {
       {
         content,
         done: false,
-        id: tasks.lenght === 0 ? 1 : tasks[tasks.length - 1].id +1,
+        id: tasks.length === 0 ? 1 : tasks[tasks.length - 1].id +1,
       },
     ]);
   };
